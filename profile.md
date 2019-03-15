@@ -1,5 +1,5 @@
 ### User Profile
-#### /profile/full
+#### /user/profile
 
 ```json
 {
@@ -31,6 +31,22 @@
             "name": "Malang"
         },
         "avatar": "https://raga.wtf"
+    }
+}
+```
+
+### User Balance
+#### /user/balance
+
+
+```json
+{
+    "error": false,
+    "errorMessage": null,
+    "data": {
+        "name": "",
+        "phoneNumber": "",
+        "balance": 120000.0
     }
 }
 ```
