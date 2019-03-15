@@ -41,6 +41,7 @@ Bill Example, Please note that additional data is dynamic, so it can contain dif
     "data": 
         {
             "id": "",
+            "code": "PPLN-123649438743",
             "type": "PAY",
             "title": "Pembayaran Something",
             "product": {
@@ -59,6 +60,7 @@ Bill Example, Please note that additional data is dynamic, so it can contain dif
             "discount": 0.0,
             "date": "2019-03-15T07:05:24.482Z"
         },
+        
 }
 ```
 
@@ -71,6 +73,7 @@ Purchase Example
     "data": 
         {
             "id": "",
+            "code": "BPTSEL-123649438743",
             "type": "BUY",
             "title": "Pulsa Telkomsel 5000",
             "product": {

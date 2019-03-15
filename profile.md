@@ -1,6 +1,7 @@
 ### User Profile
 #### /user/profile
 
+
 ```json
 {
     "error": false,
@@ -30,7 +31,8 @@
             "cityId": "",
             "name": "Malang"
         },
-        "avatar": "https://raga.wtf"
+        "avatar": "https://raga.wtf",
+        "fullService": 0
     }
 }
 ```
