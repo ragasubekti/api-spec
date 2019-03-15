@@ -32,7 +32,7 @@
 
 ## /transaction/:id
 
-Bill Example, Please not that additional data is dynamic, so it can contain different data as in example
+Bill Example, Please note that additional data is dynamic, so it can contain different data as in example
 
 ```json
 {
