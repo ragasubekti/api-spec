@@ -3,6 +3,7 @@
 - [Transactions](#transactions)
     - [Transactions List](#transactions-list)
     - [Transaction Detail](#transaction-detail)
+    - [Create Transaction (BUY)](#create-transaction-buy)
 
 ### Transactions List
 **[GET] /transactions**
@@ -94,3 +95,28 @@ Purchase Example
         },
 }
 ```
+
+### Create Transaction (BUY)
+**[POST] /transaction/create/buy**
+
+Parameter
+```json
+{
+    "id": "123",
+    "reff": "0821234567"
+}
+```
+Response
+```json
+{
+    "error": false,
+    "errorMessage": null,
+    "status": 1,
+    "success": true
+}
+```
+
+**Example of statuses:**
+- **0**: Failed
+- **1**: Waiting / On Process
+- **2**: Success (Usually found in Transfer Member Because it was instant)
