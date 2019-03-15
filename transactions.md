@@ -2,12 +2,10 @@
 
 - [Transactions](#transactions)
     - [Transactions List](#transactions-list)
-      - [[GET] /transactions](#get-transactions)
     - [Transaction Detail](#transaction-detail)
-      - [[GET] /transaction/:id](#get-transactionid)
 
 ### Transactions List
-#### [GET] /transactions
+**[GET] /transactions**
 
 ```json
 {
@@ -36,7 +34,7 @@
 ```
 
 ### Transaction Detail
-#### [GET] /transaction/:id
+**[GET] /transaction/:id**
 
 Bill Example, Please note that additional data is dynamic, so it can contain different data as in example
 

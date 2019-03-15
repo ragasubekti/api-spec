@@ -1,8 +1,7 @@
 - [Products](#products)
-  - [[GET] /products](#get-products)
 
 ### Products
-#### [GET] /products
+**[GET] /products**
 Query Params
 ```yaml
 type: "BUY",

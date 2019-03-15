@@ -3,25 +3,18 @@
 - [Auth](#auth)
   - [LOGIN](#login)
     - [Login](#login)
-      - [[POST] /login](#post-login)
     - [Login Verification (OTP)](#login-verification-otp)
-      - [[POST] /login/verify](#post-loginverify)
     - [Login OTP Resend](#login-otp-resend)
-      - [[POST] /login/verify/resend](#post-loginverifyresend)
   - [SIGNUP](#signup)
     - [Signup](#signup)
-      - [[POST] /signup](#post-signup)
     - [Signup Verification (OTP)](#signup-verification-otp)
-      - [[POST] /signup/verify](#post-signupverify)
     - [Signup OTP Resend](#signup-otp-resend)
-      - [[POST] /signup/verify/resend](#post-signupverifyresend)
     - [Signup Profile Setup](#signup-profile-setup)
-      - [[POST] /signup/profile](#post-signupprofile)
 
 ## LOGIN
 
 ### Login
-#### [POST] /login
+**[POST] /login**
 
 Parameter
 ```json
@@ -39,7 +32,7 @@ Response
 ```
 
 ### Login Verification (OTP)
-#### [POST] /login/verify
+**[POST] /login/verify**
 
 Parameter
 ```json
@@ -59,7 +52,7 @@ Response
 ```
 
 ### Login OTP Resend
-#### [POST] /login/verify/resend
+**[POST] /login/verify/resend**
 Parameter
 ```json
 {
@@ -79,7 +72,7 @@ Response
 ## SIGNUP
 
 ### Signup
-#### [POST] /signup
+**[POST] /signup**
 
 Parameter
 ```json
@@ -97,7 +90,7 @@ Response
 ```
 
 ### Signup Verification (OTP)
-#### [POST] /signup/verify
+**[POST] /signup/verify**
 
 Parameter
 ```json
@@ -117,7 +110,7 @@ Response
 ```
 
 ### Signup OTP Resend
-#### [POST] /signup/verify/resend
+**[POST] /signup/verify/resend**
 Parameter
 ```json
 {
@@ -133,7 +126,7 @@ Response
 }
 ```
 ### Signup Profile Setup
-#### [POST] /signup/profile
+**[POST] /signup/profile**
 
 Parameter
 ```json

@@ -2,12 +2,10 @@
 
 - [Profile](#profile)
     - [User Profile](#user-profile)
-      - [/user/profile](#userprofile)
     - [User Balance](#user-balance)
-      - [/user/balance](#userbalance)
 
 ### User Profile
-#### /user/profile
+**[GET] /user/profile**
 
 ```json
 {
@@ -45,7 +43,7 @@
 ```
 
 ### User Balance
-#### /user/balance
+**[GET] /user/balance**
 
 
 ```json
