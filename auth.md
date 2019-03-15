@@ -1,4 +1,15 @@
-# LOGIN
+# Auth
+- Login
+    - [[POST] Login](#post-login)
+    - [[POST] Login Verification (OTP)](#post-loginverify)
+    - [[POST] Login OTP Resend](post-loginverifyresend)
+- Signup
+    - [[POST] Signup](#post-signup)
+    - [[POST] Signup Verification (OTP)](#post-signupverify)
+    - [[POST] Signup OTP Resend](#post-signupverifyresend)
+    - [[POST] Signup Profile Setup](#post-signupprofile)
+
+## LOGIN
 
 ### Login
 #### [POST] /login
@@ -56,7 +67,7 @@ Response
 ```
 
 
-# SIGNUP
+## SIGNUP
 
 ### Signup
 #### [POST] /signup
