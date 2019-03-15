@@ -4,6 +4,7 @@
     - [Transactions List](#transactions-list)
     - [Transaction Detail](#transaction-detail)
     - [Create Transaction (BUY)](#create-transaction-buy)
+        - [Example of Status:](#example-of-status)
 
 ### Transactions List
 **[GET] /transactions**
@@ -116,7 +117,7 @@ Response
 }
 ```
 
-**Example of statuses:**
+##### Example of Status:
 - **0**: Failed
 - **1**: Waiting / On Process
 - **2**: Success (Usually found in Transfer Member Because it was instant)
