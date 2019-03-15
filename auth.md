@@ -1,13 +1,22 @@
 # Auth
-- Login
-    - [[POST] Login](#post-login)
-    - [[POST] Login Verification (OTP)](#post-loginverify)
-    - [[POST] Login OTP Resend](post-loginverifyresend)
-- Signup
-    - [[POST] Signup](#post-signup)
-    - [[POST] Signup Verification (OTP)](#post-signupverify)
-    - [[POST] Signup OTP Resend](#post-signupverifyresend)
-    - [[POST] Signup Profile Setup](#post-signupprofile)
+
+- [Auth](#auth)
+  - [LOGIN](#login)
+    - [Login](#login)
+      - [[POST] /login](#post-login)
+    - [Login Verification (OTP)](#login-verification-otp)
+      - [[POST] /login/verify](#post-loginverify)
+    - [Login OTP Resend](#login-otp-resend)
+      - [[POST] /login/verify/resend](#post-loginverifyresend)
+  - [SIGNUP](#signup)
+    - [Signup](#signup)
+      - [[POST] /signup](#post-signup)
+    - [Signup Verification (OTP)](#signup-verification-otp)
+      - [[POST] /signup/verify](#post-signupverify)
+    - [Signup OTP Resend](#signup-otp-resend)
+      - [[POST] /signup/verify/resend](#post-signupverifyresend)
+    - [Signup Profile Setup](#signup-profile-setup)
+      - [[POST] /signup/profile](#post-signupprofile)
 
 ## LOGIN
 

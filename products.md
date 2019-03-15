@@ -1,3 +1,6 @@
+- [Products](#products)
+  - [[GET] /products](#get-products)
+
 ### Products
 #### [GET] /products
 Query Params
