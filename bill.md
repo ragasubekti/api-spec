@@ -1,5 +1,6 @@
 # Bill (Tagihan)
-
+- [Bill (Tagihan)](#bill-tagihan)
+    - [[POST] Check Bill](#post-check-bill)
 ### [POST] Check Bill
 
 ***Contoh Request TOKEN PLN***
